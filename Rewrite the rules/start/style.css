@@ -1,6 +1,8 @@
 :root {
     --black: #011212;
     --orange: #ff8800;
+    --avg: 100px;
+    --half: 50px;
 }
 
 body { 
@@ -8,8 +10,8 @@ body {
 }
 
 .ball {
-    width: 100px;
-    height: 100px;
+    width: var(--avg);
+    height: var(--avg);
     background-color: var(--orange);
-    border-radius: 50px;
+    border-radius: var(--half)
 }
