@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+}
+
+.yellow{
+    order: 2;
+}
+
+.red{
+    order: 1;
+}
+
