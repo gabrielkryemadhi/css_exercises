@@ -6,13 +6,36 @@
 .body{
     display: flex;
     flex-direction: row;
+    column-gap: 1rem;
 }
 
-.yellow{
-    order: 2;
-}
-
-.red{
+#yellow{
     order: 1;
+    flex: 0 0 18%;
+}
+
+#red{
+    order: 2;
+    flex: 0 0 18%;
+}
+
+#green{
+    order: 3;
+    flex: 0 0 15%;
+}
+
+#orange{
+    order: 4;
+    flex: 0 0 30%;
+}
+
+#blue{
+    order: 5;
+    flex: 0 0 15%;
+}
+
+ul{
+    max-width: 80px;
+    margin: auto;
 }
 
